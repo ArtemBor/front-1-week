@@ -3,6 +3,8 @@ import styles from "./page.module.css";
 import Container from "./components/container/container";
 import Header from "./modules/header/header";
 import Product from "./modules/product/product";
+import About from "./modules/about/about";
+import Services from "./modules/services/services";
 
 export default function Home() {
   return (
@@ -14,6 +16,12 @@ export default function Home() {
         </Container>
         <Container>
         <Product></Product>
+        </Container>
+        <Container>
+        <About></About>
+        </Container>
+        <Container>
+        <Services></Services>
         </Container>
         </div>
       </main>

@@ -1,0 +1,25 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.services__top {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+.services__top-title {
+    color: #f1f1f1;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+.services__top-text {
+    color: #f1f1f1;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+}

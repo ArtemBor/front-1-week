@@ -53,6 +53,8 @@
     }
     .header__button-open, .header__button-close {
         display: block;
+        background-color: transparent;
+        border: none;
     }
     .header__button-close {
         margin-left: auto;

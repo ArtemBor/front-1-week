@@ -12,10 +12,10 @@ export default function Header() {
         <header className={styles.header}>
             <img className={styles.header__image} src="/images/logo.svg" alt="Логотип"></img>
             <nav className={styles.header__navigation}>
-            <button className={styles['header__button-open']} onClick={() => setIsOpen(true)}>Open</button> {/* сделать бургер */}
+            <button className={styles['header__button-open']} onClick={() => setIsOpen(true)}><Icon icon={'burger'}></Icon></button>
             <div className={`${styles['header__navigation-container']} ${isOpen ? styles['header__navigation-container--open'] : ''}`}>
-            <button className={styles['header__button-close']} onClick={() => setIsOpen(false)}>Close</button> {/* сделать крестик */}
-            <ul className={`${styles['header__navigation-list']}`}> {/* Спросить */}
+            <button className={styles['header__button-close']} onClick={() => setIsOpen(false)}><Icon icon={'close'}></Icon></button>
+            <ul className={`${styles['header__navigation-list']}`}>
                 <li className={styles['header__navigation-item']}>
                     <a href="">About</a>
                 </li>
