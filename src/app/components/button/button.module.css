@@ -1,0 +1,16 @@
+.button {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr max-content;
+}

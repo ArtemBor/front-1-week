@@ -1,0 +1,12 @@
+.page__background {
+    background-image:url(/images/product-background.png);
+    background-position: center 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 375px) {
+    .page__background {
+        background-size: cover;
+    }
+}

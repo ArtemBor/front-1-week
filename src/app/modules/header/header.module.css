@@ -1,5 +1,5 @@
 .header {
-    color: white;
+    color: #f1f1f1;
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
@@ -16,6 +16,15 @@
 .header__navigation-item {
     list-style: none;
     text-transform: uppercase;
+}
+.header__navigation-link {
+    display: flex;
+    gap: 3px;
+}
+.header__navigation-icon {
+    transform-origin: center;
+    transform: rotate(-135deg);
+    width: max-content;
 }
 .header__button-open, .header__button-close {
     display: none;

@@ -1,4 +1,5 @@
 'use client'
+import Icon from "@/app/components/icon/icon"
 import styles from "./header.module.css"
 import { useState } from "react"
 
@@ -25,7 +26,7 @@ export default function Header() {
                     <a href="">Portfolio</a>
                 </li>
                 <li className={styles['header__navigation-item']}>
-                    <a href="">Let's talk</a> {/* сделать стрелку */}
+                    <a className={styles['header__navigation-link']} href="">Let's talk <div className={styles['header__navigation-icon']}><Icon icon={'arrow'}></Icon></div></a>
                 </li>
             </ul>
             </div>
