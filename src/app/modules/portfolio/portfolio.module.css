@@ -10,3 +10,8 @@
     font-weight: 500;
     line-height: 110%;
 }
+.porfolio__hover {
+    width: 100%;
+    min-height: 552px;
+    border: 1px solid #ffffff;
+}

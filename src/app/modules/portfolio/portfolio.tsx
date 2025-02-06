@@ -8,7 +8,7 @@ export default function Portfolio () {
                     Featured Portfolio
                 </h2>
                 <div className={styles['porfolio__hover']}>
-
+                    
                 </div>
             </div>
             <div>

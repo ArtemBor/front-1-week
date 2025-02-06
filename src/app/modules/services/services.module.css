@@ -24,10 +24,15 @@
     text-transform: uppercase;
 }
 .services__card {
-    background-image:url(/public/images/serices.png)
+    
 }
 .services__card-item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    background-image:url(/images/services.png);
+    width: 1000px;
+    height: 700px;
+    align-items: center;
+    border: 1px solid  #f1f1f1;
 }
