@@ -1,0 +1,31 @@
+.card {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #000000;
+    padding: 51px 63px;
+   
+}
+.card:hover{
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+.card__number {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 110%;
+}
+.card__title {
+    font-size: 32px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 110%;
+}
+.card__text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 140%;
+}

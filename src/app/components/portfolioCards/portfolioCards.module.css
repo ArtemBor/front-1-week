@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 52px 24px;
+    border-top: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+}
+.card__text {
+    color: #f1f1f1;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.card__image {
+    margin-left: auto;
+}

@@ -1,0 +1,33 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-bottom: 120px;
+}
+.testimonials__top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    align-items: center;
+}
+.testimonials__top-title {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 110%;
+    color: #f1f1f1;
+}
+.testimonials__top-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    color: #f1f1f1;
+    text-transform: uppercase;
+}
+.testimonials__item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+    padding: 0 75.5px;
+}
