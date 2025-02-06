@@ -23,3 +23,11 @@
     line-height: 140%;
     text-transform: uppercase;
 }
+.services__card {
+    background-image:url(/public/images/serices.png)
+}
+.services__card-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}

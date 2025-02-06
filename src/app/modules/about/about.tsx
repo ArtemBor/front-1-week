@@ -6,7 +6,7 @@ export default function About () {
         <section className={styles.about}>
             <div className={styles['about__info']}>
                 <h2 className={styles['about__title']}>About schrift</h2>
-                <img className={styles.img} src="/images/about.png" alt="Круги"/>
+                <img className={styles['about__image']} src="/images/about.png" alt="Круги"/>
             </div>
             <div className={styles['about__card']}>
                 <p className={styles['about__card-text']}>Schrift is a graphic design agency focused on clarity, impact, and purpose. We deliver designs that communicate powerfully and authentically</p>

@@ -5,6 +5,7 @@ import Header from "./modules/header/header";
 import Product from "./modules/product/product";
 import About from "./modules/about/about";
 import Services from "./modules/services/services";
+import Portfolio from "./modules/portfolio/portfolio";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
         </Container>
         <Container>
         <Services></Services>
+        </Container>
+        <Container>
+        <Portfolio></Portfolio>
         </Container>
         </div>
       </main>
