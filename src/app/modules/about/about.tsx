@@ -3,7 +3,7 @@ import AboutCards from '@/app/components/aboutCards/aboutCards'
 
 export default function About () {
     return (
-        <section className={styles.about}>
+        <section className={styles.about} id={styles.aboutId}>
             <div className={styles['about__info']}>
                 <h2 className={styles['about__title']}>About schrift</h2>
                 <img className={styles['about__image']} src="/images/about.png" alt="Круги"/>

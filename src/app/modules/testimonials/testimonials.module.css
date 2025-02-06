@@ -24,7 +24,7 @@
     color: #f1f1f1;
     text-transform: uppercase;
 }
-.testimonials__item {
+.testimonials__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);

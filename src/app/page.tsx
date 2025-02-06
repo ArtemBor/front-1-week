@@ -7,6 +7,7 @@ import About from "./modules/about/about";
 import Services from "./modules/services/services";
 import Portfolio from "./modules/portfolio/portfolio";
 import Testimonials from "./modules/testimonials/testimonials";
+import Footer from "./modules/footer/footer";
 
 export default function Home() {
   return (
@@ -30,6 +31,9 @@ export default function Home() {
         </Container>
         <Container>
         <Testimonials></Testimonials>
+        </Container>
+        <Container>
+        <Footer></Footer>
         </Container>
         </div>
       </main>
