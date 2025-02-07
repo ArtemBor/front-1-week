@@ -20,22 +20,24 @@ export default function Home() {
         <Container>
         <Product></Product>
         </Container>
+        </div>
         <Container>
         <About></About>
         </Container>
         <Container>
         <Services></Services>
         </Container>
+        <div className={styles['portfolio__background']}>
         <Container>
         <Portfolio></Portfolio>
         </Container>
+        </div>
         <Container>
         <Testimonials></Testimonials>
         </Container>
         <Container>
         <Footer></Footer>
         </Container>
-        </div>
       </main>
     </div>
   );

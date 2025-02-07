@@ -3,9 +3,18 @@
     flex-direction: row;
     gap: 24px;
     padding: 52px 24px;
-    border-top: 1px solid #F1F1F1;
-    border-bottom: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F133;
 }
+
+.card--active {
+    background-color:#111111;
+    transition: background-color 0.3s;
+}
+
+.card:first-of-type {
+    border-top: 1px solid #F1F1F133;
+}
+
 .card__text {
     color: #f1f1f1;
     font-size: 24px;

@@ -3,20 +3,48 @@
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color: #000000;
     padding: 51px 63px;
-   
+    backdrop-filter: blur(120px);
+    transition: opacity .3s;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+}
+
+.card:nth-of-type(2) {
+    border-bottom-left-radius: 16px;
+}
+.card:nth-of-type(3) {
+    border-top-right-radius: 16px;
+}
+.card:nth-of-type(4) {
+    border-top-left-radius: 16px;
 }
 .card:hover{
     opacity: 1;
-    transition: opacity 0.3s;
 }
 .card__number {
+    width: fit-content;
     font-size: 16px;
     font-weight: 500;
     color: #ffffff;
     line-height: 110%;
 }
+
+.card:nth-of-type(odd) .card__number,
+.card:nth-of-type(odd) .card__title,
+.card:nth-of-type(odd) .card__text
+ {
+    text-align: left;
+    margin-left: auto;
+}
+
+.card:nth-of-type(even) .card__number,
+.card:nth-of-type(odd) .card__title,
+.card:nth-of-type(odd) .card__text {
+    margin-right: auto;
+    text-align: right;
+}
+
 .card__title {
     font-size: 32px;
     font-weight: 500;

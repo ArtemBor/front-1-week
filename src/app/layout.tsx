@@ -1,21 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Instrument_Sans } from "next/font/google";
+import { Geist, Geist_Mono, Instrument_Sans, Poppins } from "next/font/google";
 import "./globals.css";
 
 const instrumentSans = Instrument_Sans({
   variable: "--font-instrument-sans",
   subsets: ["latin"],
+  style: ['italic', 'normal']
+});
+const poppins = Poppins({
+  variable: "--font-poppins",
+  weight: "400",
 });
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -29,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${instrumentSans.variable}`}>
+      <body className={`${instrumentSans.variable} ${poppins.variable}`}>
         {children}
       </body>
     </html>

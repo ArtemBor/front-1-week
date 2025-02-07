@@ -1,0 +1,14 @@
+.button__more {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: transparent;
+    border: none;
+    color: #f1f1f1;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+    align-items: center;
+}

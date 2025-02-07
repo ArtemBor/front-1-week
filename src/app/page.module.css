@@ -4,7 +4,11 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-
+.portfolio__background {
+    background-image:url(/images/portfolio-background.png);
+    background-position: -161px 185px;
+    background-repeat: no-repeat;
+}
 @media screen and (max-width: 375px) {
     .page__background {
         background-size: cover;

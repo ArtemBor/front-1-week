@@ -14,7 +14,7 @@ export default function AboutCards (props: TProps) {
             <div className={styles['card__info']}>
             <Icon icon={'cub'}></Icon>  
             <h3 className={styles['card__title']}>{props.title}</h3>
-            <p className={styles['card__text']}>{props.label}</p>
+            <p className={styles['card__text']} dangerouslySetInnerHTML={{ __html: props.label }}></p>
             </div>
     </li>
     )
