@@ -67,7 +67,9 @@
 
 @media screen and (max-width:768px) {
     .portfolio {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         margin-bottom: 60px;
     }
     .portfolio__info-title {
@@ -75,13 +77,5 @@
     }
     .portfolio__description {
         gap: 40px;
-    }
-}
-
-@media screen and (max-width:375px) {
-    .portfolio {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 }

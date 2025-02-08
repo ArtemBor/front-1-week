@@ -41,9 +41,8 @@
     .services {
         margin-bottom: 60px;
     }
-}
 
-@media screen and (max-width:375px) {
+
     .services__img-list {
         background-image: none;
         flex-direction: column;

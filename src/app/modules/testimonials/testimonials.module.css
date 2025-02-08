@@ -43,8 +43,6 @@
     .testimonials {
         margin-bottom: 60px;
     }
-}
-@media screen and (max-width:375px) {
     .testimonials__list {
         display: flex;
         flex-direction: column;
