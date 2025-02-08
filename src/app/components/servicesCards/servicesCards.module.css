@@ -8,6 +8,9 @@
     transition: opacity .3s;
     border-bottom-right-radius: 16px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .card:nth-of-type(2) {
@@ -34,15 +37,15 @@
 .card:nth-of-type(odd) .card__title,
 .card:nth-of-type(odd) .card__text
  {
-    text-align: left;
+    text-align: right;
     margin-left: auto;
 }
 
 .card:nth-of-type(even) .card__number,
-.card:nth-of-type(odd) .card__title,
-.card:nth-of-type(odd) .card__text {
+.card:nth-of-type(even) .card__title,
+.card:nth-of-type(even) .card__text {
     margin-right: auto;
-    text-align: right;
+    text-align: left;
 }
 
 .card__title {
@@ -50,10 +53,49 @@
     font-weight: 500;
     color: #ffffff;
     line-height: 110%;
+    padding-top: 24px;
 }
 .card__text {
     font-size: 16px;
     font-weight: 500;
     color: #ffffff;
     line-height: 140%;
+}
+
+@media screen and (max-width:375px) {
+    .card {
+        opacity: 1;
+        align-items: center;
+        padding: 50px 62px;
+        border: 1px solid #ffffff;
+        border-bottom-right-radius: 0;
+        border-radius: 16px;
+    }
+    .card:nth-of-type(odd) .card__number,
+    .card:nth-of-type(odd) .card__title,
+    .card:nth-of-type(odd) .card__text
+    {
+        text-align: center;
+        margin-left: 0;
+}
+
+    .card:nth-of-type(even) .card__number,
+    .card:nth-of-type(even) .card__title,
+    .card:nth-of-type(even) .card__text 
+    {
+        text-align: center;
+        margin-right: 0;
+}
+    .card:nth-of-type(2) {
+        border-bottom-left-radius: 0px;
+        border-radius: 16px;
+    }
+    .card:nth-of-type(3) {
+        border-top-right-radius: 0px;
+        border-radius: 16px;
+    }
+    .card:nth-of-type(4) {
+        border-top-left-radius: 0px;
+        border-radius: 16px;
+    }
 }

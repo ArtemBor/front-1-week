@@ -135,5 +135,6 @@ export default function Icon (props: TProps) {
             </svg>
      )
      }
+
      return null
 }   

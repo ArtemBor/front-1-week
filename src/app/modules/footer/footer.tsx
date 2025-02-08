@@ -2,6 +2,7 @@
 import styles from './footer.module.css'
 import Link from '@/app/components/link/link'
 import Icon from '@/app/components/icon/icon'
+import ButtonFooter from './components/buttonFooter';
 
 
 export default function Footer () {
@@ -20,12 +21,7 @@ export default function Footer () {
             </div>
             <div className={styles['footer__bottom']}>
                 <p className={styles['footer__bottom-text']}>© Copyright Schrift 2024</p>
-                {/* Вынести в отдельный компонент */}
-                <button type='button' onClick={() => {
-                    window.scrollTo({ top: 0, behavior: 'smooth' })
-                }} style={{ position: 'fixed', bottom: '40px', right: '40px' }}>
-                    <Icon icon={'footer-arrow'}></Icon>
-                </button>
+                <ButtonFooter></ButtonFooter>
             </div>
         </footer>
     )

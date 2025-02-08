@@ -81,7 +81,7 @@ export default function Testimonials () {
                 <h2 className={styles['testimonials__top-title']}>
                     WHAT THEY SAY
                 </h2>
-                <p className={styles['testimonials__top-text']}>
+                <p className={`${'text'}`}>
                     Our clients are at the heart of everything we do. Hear from the visionaries, innovators, and leaders who’ve partnered with Schrift to bring bold ideas to life through precise, impactful design.
                 </p>
             </div>

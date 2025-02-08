@@ -9,8 +9,20 @@
     background-position: -161px 185px;
     background-repeat: no-repeat;
 }
+
+@media screen and (min-width:1920px) {
+    .portfolio__background {
+       background-image: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .portfolio__background {
+        background-image: none;
+    }
+}
 @media screen and (max-width: 375px) {
     .page__background {
         background-size: cover;
     }
 }
+

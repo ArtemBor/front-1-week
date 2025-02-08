@@ -46,7 +46,7 @@ export default function Portfolio () {
                 </div>
             </div>
             <div className={styles['portfolio__description']}>
-                <p className={styles['portfolio__description-text']}>
+                <p className={`${'text'}`}>
                     Explore how Schrift transforms bold ideas into impactful designs. From branding to digital experiences, our work reflects precision, clarity, and purpose.
                 </p>
                 <ul className={styles['portfolio__description-list']}>

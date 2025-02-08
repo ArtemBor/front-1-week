@@ -17,16 +17,16 @@ export default function Header() {
             <button className={styles['header__button-close']} onClick={() => setIsOpen(false)}><Icon icon={'close'}></Icon></button>
             <ul className={`${styles['header__navigation-list']}`}>
                 <li className={styles['header__navigation-item']}>
-                    <a href="#aboutId">About</a>
+                    <a onClick={() => setIsOpen(false)} href="#aboutId">About</a>
                 </li>
                 <li className={styles['header__navigation-item']}>
-                    <a href="#servicesId">Services</a>
+                    <a onClick={() => setIsOpen(false)}href="#servicesId">Services</a>
                 </li>
                 <li className={styles['header__navigation-item']}>
-                    <a href="#portfolioId">Portfolio</a>
+                    <a onClick={() => setIsOpen(false)} href="#portfolioId">Portfolio</a>
                 </li>
                 <li className={styles['header__navigation-item']}>
-                    <a className={styles['header__navigation-link']} href="">Let's talk <div className={styles['header__navigation-icon']}><Icon icon={'arrow'}></Icon></div></a>
+                    <a onClick={() => setIsOpen(false)} className={styles['header__navigation-link']} href="">Let's talk <div className={styles['header__navigation-icon']}><Icon icon={'arrow'}></Icon></div></a>
                 </li>
             </ul>
             </div>

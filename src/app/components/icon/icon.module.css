@@ -1,0 +1,8 @@
+@media screen and (max-width:375px) {
+    .card-testimonials {
+        display: none;
+    }
+    .card-testimonials-375 {
+        display: block;
+    }
+}

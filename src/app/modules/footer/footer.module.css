@@ -9,7 +9,7 @@
     font-weight: 500;
     color: #ffffff;
     text-transform: uppercase;
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #F1F1F133;
     padding-top: 24px;
     padding-bottom: 120px;
 }
@@ -50,4 +50,43 @@
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__center-title {
+        font-size: 57px;
+    }
+    .footer {
+        background-size: contain;
+    }
+    .footer__top {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__center-title {
+        font-size: 37px;
+    }
+    .footer {
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .footer__top {
+        gap: 30px;
+    }
+}
+@media screen and (max-width:375px) {
+    .footer {
+        background-position: center;
+        background-size: 315px;
+    }
+    .footer__top-logo {
+        margin-left: 0;
+        font-size: 16px;
+    }
+    .footer__top {
+        font-size: 8px;
+        gap: 16px;
+    }
 }

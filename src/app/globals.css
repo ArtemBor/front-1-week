@@ -34,17 +34,41 @@ h1 {
   font-weight: 500;
 }
 h2 {
-
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 110%;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+.text {
+  font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 @media screen and (max-width:1024px) {
   h1 {
       font-size: 75px;
   }
+  h2 {
+     font-size: 65px;
+  }
+  .text {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width:768px) {
   h1 {
       font-size: 55px;
+  }
+  h2 {
+      font-size: 45px;
+  }
+  .text {
+      font-size: 16px;
   }
 }
