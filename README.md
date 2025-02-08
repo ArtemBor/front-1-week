@@ -28,7 +28,7 @@
 `npm install`
 
 ## Шаг 4:
-Запустите сервер разработки: npm run dev
+Запустите сервер разработки:
 
 `npm run dev`
 
@@ -37,8 +37,8 @@
 
 # Стек используемых технологий
 
-HTML5
-CSS3
-TypeScript
-React
-Next.js
+HTML5,
+CSS3,
+TypeScript,
+React,
+Next.js.
