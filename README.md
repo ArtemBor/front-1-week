@@ -15,7 +15,7 @@
 ## Шаг 1:
 Клонировать репозиторий 
 
-`git clone -b 1-week https://github.com/ArtemBor/front-1-week.git`
+`git clone https://github.com/ArtemBor/front-1-week.git`
 
 ## Шаг 2:
 Перейти в директорию проекта 
