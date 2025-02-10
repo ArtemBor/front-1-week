@@ -1,5 +1,5 @@
 'use client';
-import PortfolioCards from '@/app/components/portfolioCards/portfolioCards'
+import PortfolioCards from '@/app/modules/portfolio/components/portfolioCards/portfolioCards'
 import styles from './portfolio.module.css'
 import { useState } from 'react'
 

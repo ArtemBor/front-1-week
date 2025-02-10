@@ -1,4 +1,4 @@
-import Icon from '../icon/icon'
+import Icon from '../../../../components/icon/icon'
 import styles from './testimonials.module.css'
 
 type TProps = {

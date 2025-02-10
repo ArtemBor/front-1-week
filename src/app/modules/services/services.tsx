@@ -1,4 +1,4 @@
-import ServicesCards from '@/app/components/servicesCards/servicesCards'
+import ServicesCards from '@/app/modules/services/components/servicesCards/servicesCards'
 import styles from './services.module.css'
 
 

@@ -22,6 +22,12 @@
     padding-bottom: 211px;
     text-align: center;
 }
+.product__info-top-date {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 110%;
+    text-transform: uppercase;
+}
 .product__info-top-text {
     color: #f1f1f1;
     font-size: 16px;
@@ -36,7 +42,7 @@
 }
 .product__info-bottom-text {
     color: #f1f1f1;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 100%;
     font-weight: 500;
     text-transform: uppercase;

@@ -12,7 +12,7 @@
 }
 .header__navigation-list {
     display: flex;
-    gap: 40px;
+    gap: 36px;
 }
 .header__navigation-item {
     list-style: none;

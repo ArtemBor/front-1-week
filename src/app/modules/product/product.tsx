@@ -7,7 +7,7 @@ export default function Product() {
         <section className={styles.product}>
             <div className={styles['product__info-top']}>
             <div className={styles['product__info-date']}>
-                <p>Est 21.12.24</p>
+                <p className={styles['product__info-top-date']}>Est 21.12.24</p>
                 <p className={styles['product__info-top-text']}>A place where design philosophy blends innovation and clarity to create impactful solutions</p>
             </div>
             <img className={styles['product__images']} src="/images/product-scaner.png" alt="Штрих-код" />

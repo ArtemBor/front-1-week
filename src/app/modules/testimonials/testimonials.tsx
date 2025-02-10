@@ -1,7 +1,7 @@
 'use client';
 import ButtonMore from './components/buttonMore';
 import styles from './testimonials.module.css'
-import TestimonialsCards from '@/app/components/testimonialsCards/testimonialsCards'
+import TestimonialsCards from '@/app/modules/testimonials/components/testimonialsCards/testimonialsCards'
 import Icon from '@/app/components/icon/icon'
 import { useState } from 'react'
 
